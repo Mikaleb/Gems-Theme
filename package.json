@@ -1,0 +1,29 @@
+{
+    "name": "plasticpatch",
+    "displayName": "PlasticPatch",
+    "description": "An easy-on-the-eye theme based on Nord and Plastic",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Plastic Patch",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Plastic Patch-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "git-cz": "^4.9.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/git-cz"
+        }
+    }
+}

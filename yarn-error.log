@@ -1,0 +1,64 @@
+Arguments: 
+  /snap/node/6331/bin/node /home/mikaleb/.yarn/releases/yarn-1.22.15.cjs global dir --json
+
+PATH: 
+  /home/mikaleb/.local/share/pnpm:/home/mikaleb/.nvm/versions/node/v16.11.0/bin:/home/mikaleb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:Could not open input file: /usr/local/bin/composer.phar
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ../package.json: EACCES: permission denied, write
+      at writeSync (fs.js:737:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+      at writeOrBuffer (internal/streams/writable.js:358:12)
+      at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)
+      at JSONReporter._dump (/home/mikaleb/.yarn/releases/yarn-1.22.15.cjs:50488:12)
+      at JSONReporter.warn (/home/mikaleb/.yarn/releases/yarn-1.22.15.cjs:50536:10)
+      at warn (/home/mikaleb/.yarn/releases/yarn-1.22.15.cjs:52197:23)
+      at module.exports.exports.default (/home/mikaleb/.yarn/releases/yarn-1.22.15.cjs:38863:7)
+      at /home/mikaleb/.yarn/releases/yarn-1.22.15.cjs:52208:51
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+      "name": "plasticpatch",
+      "displayName": "PlasticPatch",
+      "description": "An easy-on-the-eye theme based on Nord and Plastic",
+      "version": "0.0.1",
+      "engines": {
+          "vscode": "^1.68.0"
+      },
+      "categories": [
+          "Themes"
+      ],
+      "contributes": {
+          "themes": [
+              {
+                  "label": "Plastic Patch",
+                  "uiTheme": "vs-dark",
+                  "path": "./themes/Plastic Patch-color-theme.json"
+              }
+          ]
+      },
+      "devDependencies": {
+          "git-cz": "^4.9.0"
+      },
+      "config": {
+          "commitizen": {
+              "path": "./node_modules/git-cz"
+          }
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
