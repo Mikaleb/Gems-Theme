@@ -1,6 +1,6 @@
 {
-    "name": "plasticpatch",
-    "displayName": "PlasticPatch",
+    "name": "jeweltheme",
+    "displayName": "Jewel Theme",
     "description": "An easy-on-the-eye theme based on Nord and Plastic",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Plastic Patch",
+                "label": "Jewel",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Plastic Patch-color-theme.json"
+                "path": "./themes/jewel-theme.json"
             }
         ]
     },
