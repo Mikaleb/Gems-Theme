@@ -1,29 +1,49 @@
 {
-    "name": "jeweltheme",
-    "displayName": "Jewel Theme",
-    "description": "An easy-on-the-eye theme based on Nord and Plastic",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.68.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Jewel",
-                "uiTheme": "vs-dark",
-                "path": "./themes/jewel-theme.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "cz-conventional-changelog": "^3.3.0"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
+  "name": "gems-theme",
+  "displayName": "Gems theme",
+  "description": "An easy-on-the-eye theme based on Nord and Plastic",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gems",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gems-Theme-Default.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "fs-extra": "^10.1.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "@moxer/vscode-theme-generator": "^1.21.0",
+    "@types/fs-extra": "^9.0.13",
+    "cpr": "^3.0.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "build": "yarn cleanup && yarn build:ts && yarn build:theme",
+    "cleanup": "rimraf build && rimraf dist",
+    "build:ts": "tsc -p ./tsconfig.json && cpr src/gems-theme.config.json dist/",
+    "build:theme": "node dist/index.js"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }

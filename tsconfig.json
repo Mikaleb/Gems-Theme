@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "lib": ["es7", "dom"],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "emitDeclarationOnly": false
+  },
+  "include": ["./types", "./src/**/*", "./test/**/*", "./src/scripts/**/*"],
+  "exclude": ["node_modules", "dist", "build", ".vscode-test"]
+}

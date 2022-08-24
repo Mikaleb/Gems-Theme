@@ -1,2 +1,7 @@
 node_modules
 *.vsix
+dist
+package-lock.json
+yarn.lock
+!node_modules/@types
+.vscode
