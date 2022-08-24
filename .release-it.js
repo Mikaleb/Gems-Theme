@@ -11,7 +11,7 @@ module.exports = {
   },
   hooks: {
     'after:bump': 'npx auto-changelog -p',
-    'after:release': `vsce publish ${pjson.version}`,
+    'after:github:release': `vsce publish ${pjson.version}`,
   },
   npm: {
     publish: false,
