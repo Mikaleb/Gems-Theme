@@ -1,4 +1,4 @@
-# Gems theme for VS Code
+# Gems theme
 
 ## This is the README for your extension "Gems theme"
 
