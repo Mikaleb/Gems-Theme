@@ -1,6 +1,7 @@
 const pjson = require('./package.json')
 
 module.exports = {
+  increment: true,
   git: {
     commitMessage: 'chore(release): v${version}',
     changelog:
@@ -11,7 +12,7 @@ module.exports = {
   },
   hooks: {
     'after:bump': 'npx auto-changelog -p',
-    'after:github:release': `vsce publish ${pjson.version}`,
+    'after:release': `vsce publish ${pjson.version}`,
   },
   npm: false,
 }
