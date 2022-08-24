@@ -1,9 +1,10 @@
 {
   "name": "gems-theme",
+  "version": "0.1.2",
+  "private": false,
   "displayName": "Gems Theme",
   "description": "An easy-on-the-eye theme based on Nord and Plastic",
   "publisher": "Mikaleb",
-  "version": "0.1.2",
   "author": {
     "name": "Mikaleb",
     "url": "https://github.com/Mikaleb"
@@ -62,7 +63,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "license": "LICENSE.MD",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "prepare": "husky install",
     "build": "yarn cleanup && yarn build:ts && yarn build:theme",
