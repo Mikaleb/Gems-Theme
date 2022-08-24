@@ -1,6 +1,6 @@
 const pjson = require('./package.json')
 
-export default {
+module.exports = {
   git: {
     commitMessage: 'chore(release): v${version}',
     changelog:
