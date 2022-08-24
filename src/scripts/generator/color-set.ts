@@ -85,6 +85,43 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
         },
       },
       {
+        name: 'Js - Variable property',
+        scope: ['variable.other.property.ts'],
+        settings: {
+          foreground: theme.scheme.base.red,
+        },
+      },
+      {
+        name: 'Js - Variable property',
+        scope: ['variable.other.property.js'],
+        settings: {
+          foreground: theme.scheme.base.red,
+        },
+      },
+      {
+        name: 'Vue - Property',
+        scope: ['variable.other.property.vue'],
+        settings: {
+          foreground: theme.scheme.base.red,
+          fontStyle: 'italic',
+        },
+      },
+      {
+        name: 'Constant',
+        scope: ['variable.other.constant.object'],
+        settings: {
+          foreground: theme.scheme.base.lightgray,
+        },
+      },
+      {
+        name: 'Vue - Property',
+        scope: ['variable.other.property.vue'],
+        settings: {
+          foreground: theme.scheme.base.red,
+          fontStyle: 'italic',
+        },
+      },
+      {
         name: 'Python - Self Parameter',
         scope: ['variable.parameter.function.language.special.self.python'],
         settings: {
@@ -243,19 +280,19 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
        * Sidebar style
        */
       'sideBar.background': theme.scheme.backgroundAlt,
-      'sideBar.foreground': theme.scheme.sidebarForeground,
-      'sideBar.border': `${theme.scheme.contrastBorder}60`,
+      'sideBar.foreground': `${theme.scheme.sidebarForeground}99`,
+      'sideBar.border': `${theme.scheme.contrastBorder}20`,
       /**
        * Sidebar elements style
        */
       'sideBarTitle.foreground': theme.scheme.foreground,
       'sideBarSectionHeader.background': theme.scheme.backgroundAlt,
-      'sideBarSectionHeader.border': `${theme.scheme.contrastBorder}60`,
+      'sideBarSectionHeader.border': `${theme.scheme.contrastBorder}20`,
       // "sideBarSectionHeader.foreground": theme.scheme.foreground,
       /**
        * Window panels style (terminal, global search)
        */
-      'panel.border': `${theme.scheme.contrastBorder}60`,
+      'panel.border': `${theme.scheme.contrastBorder}20`,
       'panel.background': theme.scheme.backgroundAlt,
       'panel.dropBackground': theme.scheme.foreground,
       /**
@@ -294,7 +331,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
        * Activity bar style
        */
       'activityBar.background': theme.scheme.backgroundAlt,
-      'activityBar.border': `${theme.scheme.contrastBorder}60`,
+      'activityBar.border': `${theme.scheme.contrastBorder}20`,
       'activityBar.foreground': theme.scheme.foreground,
       'activityBar.activeBorder': theme.scheme.defaultAccent,
       /**
@@ -346,7 +383,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
        * Statusbar style
        */
       'statusBar.noFolderBackground': theme.scheme.background,
-      'statusBar.border': `${theme.scheme.contrastBorder}60`,
+      'statusBar.border': `${theme.scheme.contrastBorder}20`,
       'statusBar.background': theme.scheme.backgroundAlt,
       'statusBar.foreground': theme.scheme.statusbarForeground,
       'statusBar.debuggingBackground': theme.scheme.base.purple,
@@ -388,7 +425,7 @@ export const getColorSet = (theme: ThemeSetting): IColorSet => {
       'titleBar.activeForeground': theme.scheme.foreground,
       'titleBar.inactiveBackground': theme.scheme.backgroundAlt,
       'titleBar.inactiveForeground': theme.scheme.sidebarForeground,
-      'titleBar.border': `${theme.scheme.contrastBorder}60`,
+      'titleBar.border': `${theme.scheme.contrastBorder}20`,
       /**
        * Textfield and inputs style
        */

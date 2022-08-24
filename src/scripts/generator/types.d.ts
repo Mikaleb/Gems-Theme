@@ -11,7 +11,6 @@ export interface ThemeSetting {
     scrollbars: string
     comments: string
     caret: string
-    findHighlight: string
     foreground: string
     focusBorder: string
     guides: string
@@ -45,6 +44,7 @@ export interface ThemeSetting {
       brown: string
       pink: string
       violet: string
+      lightgray: string
     }
   }
 }
