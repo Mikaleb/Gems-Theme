@@ -1,7 +1,7 @@
-# Gems theme
+# Gems theme <img src="https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/logo.png" style="margin-left:1rem" width="24px">
 
-![Logo Small](https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/logo_small.png)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+<a href="https://github.com/prettier/prettie"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
+[![GitHub license](https://img.shields.io/github/license/Mikaleb/Gems-Theme)](https://github.com/Mikaleb/Gems-Theme/blob/main/LICENSE.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 ![Preview](https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/screenshot.png)
 
@@ -71,3 +71,8 @@ By pressing F5 in VSCode you should be able to have a new window with the theme.
 - pink: #FFACBA,
 - violet: #FFA3F3,
 - lightgray: #d8dee9,
+
+## Licensing
+
+See the [LICENSE](https://github.com/Mikaleb/Gems-Theme/blob/main/LICENSE.md) file for licensing information as it pertains to
+files in this repository.
