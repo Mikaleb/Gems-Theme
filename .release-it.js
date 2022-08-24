@@ -1,4 +1,4 @@
-import p from './package.json'
+const pjson = require('./package.json')
 
 export default {
   git: {
@@ -11,7 +11,7 @@ export default {
   },
   hooks: {
     'after:bump': 'npx auto-changelog -p',
-    'after:release': `vsce publish ${p.version}`,
+    'after:release': `vsce publish ${pjson.version}`,
   },
   npm: false,
 }
