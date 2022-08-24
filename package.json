@@ -1,17 +1,35 @@
 {
   "name": "gems-theme",
-  "displayName": "Gems theme",
+  "displayName": "Gems Theme",
   "description": "An easy-on-the-eye theme based on Nord and Plastic",
+  "publisher": "Mikaleb",
+  "version": "0.0.1",
   "author": {
     "name": "Mikaleb",
     "url": "https://github.com/Mikaleb"
   },
-  "publisher": "Mikaleb",
+  "icon": "assets/logo.png",
+  "galleryBanner": {
+    "color": "#1B83B5",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Mikaleb/Gems-Theme.git"
   },
-  "version": "0.0.1",
+  "homepage": "https://github.com/Mikaleb/Gems-Theme/blob/main/README.md",
+  "keywords": [
+    "gems",
+    "gem",
+    "vscode",
+    "theme",
+    "nord",
+    "plastic",
+    "color-theme",
+    "theme",
+    "Themes",
+    "VSCode"
+  ],
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -32,19 +50,18 @@
     "fs-extra": "^10.1.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "typescript": "^4.7.4",
+    "@moxer/vscode-theme-generator": "^1.21.0",
+    "@types/fs-extra": "^9.0.13",
+    "cpr": "^3.0.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "dependencies": {
-    "@moxer/vscode-theme-generator": "^1.21.0",
-    "@types/fs-extra": "^9.0.13",
-    "cpr": "^3.0.1",
-    "typescript": "^4.7.4"
-  },
+  "license": "LICENSE.MD",
   "scripts": {
     "prepare": "husky install",
     "build": "yarn cleanup && yarn build:ts && yarn build:theme",
@@ -54,5 +71,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "bugs": {
+    "url": "https://github.com/Mikaleb/Gems-Theme/issues"
   }
 }
