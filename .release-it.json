@@ -9,5 +9,6 @@
   "hooks": {
     "after:bump": "npx auto-changelog -p",
     "after:release": "vsce publish"
-  }
+  },
+  "npm": false
 }

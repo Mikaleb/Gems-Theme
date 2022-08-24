@@ -68,7 +68,8 @@
     "build": "yarn cleanup && yarn build:ts && yarn build:theme",
     "cleanup": "rimraf build && rimraf dist",
     "build:ts": "tsc -p ./tsconfig.json && cpr src/gems-theme.config.json dist/",
-    "build:theme": "node dist/index.js"
+    "build:theme": "node dist/index.js",
+    "release": "yarn build && yarn release-it"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
