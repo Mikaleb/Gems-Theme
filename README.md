@@ -1,5 +1,7 @@
 # Gems theme
 
+![Preview](https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/screenshot.png)
+
 ## This is the README for your extension "Gems theme"
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
