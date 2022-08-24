@@ -1,7 +1,7 @@
 # Gems theme <img src="https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/logo.png" style="margin-left:1rem" width="24px">
 
 <a href="https://github.com/prettier/prettie"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
-[![GitHub license](https://img.shields.io/github/license/Mikaleb/Gems-Theme)](https://github.com/Mikaleb/Gems-Theme/blob/main/LICENSE.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+[![GitHub license](https://img.shields.io/github/license/Mikaleb/Gems-Theme)](https://github.com/Mikaleb/Gems-Theme/blob/main/LICENSE.md) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ![Preview](https://raw.githubusercontent.com/Mikaleb/Gems-Theme/main/assets/screenshot.png)
 
