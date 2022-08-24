@@ -13,5 +13,7 @@ module.exports = {
     'after:bump': 'npx auto-changelog -p',
     'after:release': `vsce publish ${pjson.version}`,
   },
-  npm: false,
+  npm: {
+    publish: false,
+  },
 }
