@@ -3,6 +3,11 @@ export interface ThemeSetting {
   name: string
   type: string
   scheme: {
+    custom: {
+      background: string
+      foreground: string
+      accent: string
+    }
     defaultAccent: string
     background: string
     backgroundAlt: string

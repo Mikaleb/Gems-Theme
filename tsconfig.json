@@ -14,5 +14,11 @@
     "emitDeclarationOnly": false
   },
   "include": ["./types", "./src/**/*", "./test/**/*", "./src/scripts/**/*"],
-  "exclude": ["node_modules", "dist", "build", ".vscode-test"]
+  "exclude": ["node_modules", "dist", "build", ".vscode-test"],
+  "paths": {
+    "~/*": ["./src/*"],
+    "@/*": ["./src/*"],
+    "~~/*": ["./*"],
+    "@@/*": ["./*"]
+  }
 }

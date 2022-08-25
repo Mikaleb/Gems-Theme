@@ -40,6 +40,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Gems Light",
+        "uiTheme": "vs",
+        "path": "./themes/Gems-Theme-Light.json"
+      },
+      {
         "label": "Gems",
         "uiTheme": "vs-dark",
         "path": "./themes/Gems-Theme-Default.json"
@@ -79,6 +84,7 @@
     "url": "https://github.com/Mikaleb/Gems-Theme/issues"
   },
   "dependencies": {
+    "color": "^4.2.3",
     "release-it": "^15.4.0"
   }
 }
