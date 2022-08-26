@@ -40,14 +40,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gems",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Gems-Theme-Default.json"
-      },
-      {
         "label": "Gems Light",
         "uiTheme": "vs",
         "path": "./themes/Gems-Theme-Light.json"
+      },
+      {
+        "label": "Gems",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gems-Theme-Default.json"
       }
     ]
   },

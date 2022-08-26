@@ -13,7 +13,7 @@ const base = {
   blue: '#376F9C',
   paleblue: '#27717B',
   purple: '#860086',
-  pink: '#FFA6E3',
+  pink: '#AD2582',
   violet: '#FFA3F3',
 }
 
@@ -42,7 +42,7 @@ const colorTheme = {
     // lineNumbers: '#434C5E',
     lineNumbers: Color(`${custom.accent}`).alpha(0.25).hexa(),
     invisibles: Color(`${custom.foreground}`).alpha(0.5).hexa(),
-    lineHighlight: `${base.black}`,
+    lineHighlight: `${base.lightgray}`,
     selection: Color(`${custom.accent}`).alpha(0.2).hexa(),
     shadow: Color(`${base.black}`).alpha(0.3).hexa(),
     inputBackground: Color(`${custom.background}`).lighten(0.3).hexa(),

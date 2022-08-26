@@ -6,7 +6,6 @@ import { getColorSet } from './color-set'
 
 const THEME_BUILD_PATH = path.join(__dirname, '../themes')
 
-// only one for now
 const themes = ['default', 'light']
 
 async function getThemeColorModule(theme: string) {
