@@ -9,6 +9,8 @@ export const wb = (theme: ThemeSetting) => {
      * General elements style
      */
     // colorCustomizations: { ...colorCustomizations },
+    'editor.lineHighlightBackground': '#2e3440',
+    'editor.lineHighlightBorder': '#3b4252',
     focusBorder: Color(`${theme.scheme.focusBorder}`).alpha(0).hexa(),
     'editorRuler.foreground': theme.scheme.guides,
     'widget.shadow': theme.scheme.shadow,
@@ -80,14 +82,8 @@ export const wb = (theme: ThemeSetting) => {
      */
     'editor.background': theme.scheme.background,
     'editor.foreground': theme.scheme.foreground,
-    'editor.lineHighlightBackground': Color(`${theme.scheme.lineHighlight}`)
-      .alpha(0.5)
-      .hexa(),
     'editor.selectionHighlightBackground': Color(`${theme.scheme.caret}`)
       .alpha(0.2)
-      .hexa(),
-    'editor.lineHighlightBorder': Color(`${theme.scheme.lineHighlight}`)
-      .alpha(0)
       .hexa(),
     'editor.findMatchBackground': theme.scheme.findMatchBackground,
     'editor.findMatchHighlightBackground':
