@@ -1,5 +1,5 @@
 import { ThemeSetting } from '../types'
-const Color = require('color')
+import Color from 'color'
 
 export const wb = (theme: ThemeSetting) => {
   const border = Color(`${theme.scheme.contrastBorder}`).alpha(0.2).hexa()
@@ -205,7 +205,7 @@ export const wb = (theme: ThemeSetting) => {
       .alpha(0.4)
       .hexa(),
     'editorOverviewRuler.warningForeground': Color(
-      `${theme.scheme.base.yellow}`
+      `${theme.scheme.base.yellow}`,
     )
       .alpha(0.4)
       .hexa(),
@@ -286,7 +286,7 @@ export const wb = (theme: ThemeSetting) => {
     'editorSuggestWidget.foreground': theme.scheme.foreground,
     'editorSuggestWidget.highlightForeground': theme.scheme.defaultAccent,
     'editorSuggestWidget.selectedBackground': Color(
-      `${theme.scheme.lineHighlight}`
+      `${theme.scheme.lineHighlight}`,
     )
       .alpha(0.5)
       .hexa(),
@@ -336,7 +336,7 @@ export const wb = (theme: ThemeSetting) => {
     'peekViewResult.matchHighlightBackground': theme.scheme.selection,
     'peekViewEditor.matchHighlightBackground': theme.scheme.selection,
     'peekViewResult.selectionBackground': Color(
-      `${theme.scheme.sidebarForeground}`
+      `${theme.scheme.sidebarForeground}`,
     )
       .alpha(0.7)
       .hexa(),
@@ -347,22 +347,22 @@ export const wb = (theme: ThemeSetting) => {
       .alpha(0.9)
       .hexa(),
     'gitDecoration.conflictingResourceForeground': Color(
-      `${theme.scheme.base.yellow}`
+      `${theme.scheme.base.yellow}`,
     )
       .alpha(0.9)
       .hexa(),
     'gitDecoration.modifiedResourceForeground': Color(
-      `${theme.scheme.base.blue}`
+      `${theme.scheme.base.blue}`,
     )
       .alpha(0.9)
       .hexa(),
     'gitDecoration.untrackedResourceForeground': Color(
-      `${theme.scheme.base.green}`
+      `${theme.scheme.base.green}`,
     )
       .alpha(0.9)
       .hexa(),
     'gitDecoration.ignoredResourceForeground': Color(
-      `${theme.scheme.sidebarForeground}`
+      `${theme.scheme.sidebarForeground}`,
     )
       .alpha(0.9)
       .hexa(),

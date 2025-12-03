@@ -2,7 +2,7 @@ import { IColorSet } from '@moxer/vscode-theme-generator'
 import { wb } from './colors/workbench'
 import { ThemeSetting } from './types'
 
-const Color = require('color')
+import Color from 'color'
 
 export const getColorSet = (theme: ThemeSetting): IColorSet => {
   return {

@@ -1,4 +1,4 @@
-const Color = require('color')
+import Color from 'color'
 
 const base = {
   white: '#ffffff',
