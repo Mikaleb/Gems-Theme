@@ -1,4 +1,46 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+
+# Misc
+.cache/
+.temp/
+.tmp/
+.versions/
+.husky/
+
+# Package files
+yarn.lock
+package-lock.json
+
+# VS Code packaging
+*.vsix

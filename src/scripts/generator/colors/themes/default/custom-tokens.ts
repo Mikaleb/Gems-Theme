@@ -1,5 +1,5 @@
 import { ThemeSetting } from '../../../types'
-const Color = require('color')
+import Color from 'color'
 
 export const customTokens = (theme: ThemeSetting) => {
   const markup = [
